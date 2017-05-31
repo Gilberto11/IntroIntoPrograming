@@ -1,0 +1,42 @@
+Java Notes
+
+
+IF STATEMENTS
+
+= assign
+
+== compares (numbers)
+
+.equals (compares text-Strings)
+
+ignoreCase  (ignores upper or lower cases on the input, only used on if statements)
+
+
+toLowerCAse (Switch statement, rule is the variable has to be lowercase)
+
+< less than symbol
+> more than symbol
+
+=> equal or more than
+&& and 
+|| or 
+
+! not 
+=! not equal
+
+STAGES OF IF STATEMENTS
+
+1- IF (condition is met){
+
+
+"print out message"
+
+2- ELSE IF (2nd condition met)
+
+"print out something"
+
+}
+
+3- ELSE (grabs everything else)
+
+"print out message

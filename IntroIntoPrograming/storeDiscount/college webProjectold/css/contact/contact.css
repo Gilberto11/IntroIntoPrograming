@@ -1,0 +1,164 @@
+/* responsive css*/
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+ @media only screen and (max-width: 700px){
+  .responsive {
+     width: 49.99999%;
+     margin: 6px 0;
+    }
+}
+
+    @media only screen and (max-width: 500px){
+    .responsive {
+     width: 100%;
+    }
+}
+/* navigation bar*/
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+
+
+body { 
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    overflow:auto;
+    background-image: url("images/background.jpeg"); 
+}
+
+
+     /* style of the headline */
+h1 { 
+    color: white;
+  text-align: center;
+ }
+
+.container {
+  max-width: 840px;
+  margin: 100 auto;
+
+}
+
+/* set the font size of a paragraph */
+p{
+	font-size: 20px;
+	color: black;
+}
+/*css for the wrapper of the entire page*/
+#wrapper {
+      max-width: 1020;
+      height: auto;
+      width: 98%;
+      border: 1px solid #878E63;
+      border-radius : 2px;
+      box-shadow: 0 0 10px 0px rgba(12,3, 25, 0.8);
+}
+
+header {
+      width: 100%;
+      min-height: 25px;
+      padding: 1px;
+      text-align: center;
+      background-color:hsla(0, 0%, 100%, 0.9);
+}
+
+footer {
+      background: #D3D3D3;
+      width: 100%;
+      overflow: hidden;
+      
+
+     
+}
+
+ul {
+
+      list-style-type: none;
+      margin: 0;
+      padding:0;
+}
+      
+.responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+}
+/* style the form*/
+form{
+      background-color: black;
+      width: 800px;
+      height: 600px;
+      font-family: Tahoma, Geneva, sans-serif;
+      font-size: 14px;
+      font-style: italic;
+      line-height:24px;
+      font-weight:bold;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      border: 1px solid #999;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 50px;
+}
+
+input{
+      width:700px;
+      display: block;
+      border:5px solid #999;
+      height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+textarea#feedback{
+      width:700px;
+      height:150px;
+      display: block;
+      border:5px solid #999;
+      margin-left: auto;
+      margin-right: auto;
+      }
+
+input.button{
+      width: 100px;
+      float: right;
+      background: white;
+      color: #fff;
+      font-family: Tahoma, Arial, sans-serif;
+      height: 30px;
+      border: 10px solid #999;
+}
+
+input.button:hover{
+      background: red;
+      color:black;
+}
+
+.section {
+       width: 29%;
+       float: left;
+       margin: 2% 2%;
+       text-align: center;
+    }
+

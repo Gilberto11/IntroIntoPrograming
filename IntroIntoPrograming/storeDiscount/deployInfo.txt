@@ -1,0 +1,3 @@
+Hostname: ftp.gear.host
+Username: kitesforfun\$kitesforfun
+Password: kRfWAeloLZpeFPTZR3xFLu2nETbD3voiSZx9f2XvkHydAhRDl4dkK27ekHBJ

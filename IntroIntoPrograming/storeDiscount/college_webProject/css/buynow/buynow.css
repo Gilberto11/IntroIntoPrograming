@@ -1,0 +1,142 @@
+
+/* css for navigation bar*/
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+    /*css for the body of the page*/
+    body{
+      font-family: Verdana, Tahoma, Arial, sans-serif;
+      overflow:auto;
+      text-align: center;
+      background-image: url("images/background.jpeg"); 
+    }
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 40px;
+    text-align: center;
+}
+
+/*responsive css for the images*/
+.responsive {
+    padding: 0 50px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 100px){
+    .responsive {
+        width: 100%;
+    }
+}
+/*clearfix is a way to combat the zero-height container problem for floated elements.*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+    /* css setting unique id for the wrapper of the entire page*/
+    #wrapper {
+      text-align: center;
+      height: auto;
+      width: 98%;
+      border: 1px solid #878E63;
+      border-radius : 2px;
+      box-shadow: 0 0 10px 0px rgba(12,3, 25, 0.8);
+      margin-left: auto; 
+      margin-right: auto;
+    }
+
+     header {
+      width: 100%;
+      min-height: 25px;
+      padding: 1px;
+      text-align: center;
+      background-color:hsla(0, 0%, 100%, 0.9);
+    }
+    /*footer css*/
+    footer {
+      background: #D3D3D3;
+      width: 100%;
+      overflow: hidden;
+     
+    }
+    /*css for the display of all classes called "section"*/
+    .section {
+       width: 29%;
+       padding: 20px;
+       text-align: center;
+       box-sizing: border-box;
+       display: inline-block;
+       margin-left: 2%;
+       margin-right: 2%;
+       min-width: 300px;
+       vertical-align: middle;
+       
+    }
+
+    ul {
+
+      list-style-type: none;
+      margin: 0;
+      padding:0;
+    }
+    /*display items one next to anohter*/
+    li {
+
+      display: inline;
+
+    }
+
+    h1 { 
+color: red;
+text-align: center;
+ }

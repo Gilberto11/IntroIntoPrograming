@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"> <!--define the language-->
+  <head>
+    <meta charset="UTF-8"/>
+    <title> Kites Contact</title>
+    <!--[if lt IE 9]>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact/contact.css">
+        <link rel="icon" 
+      type="image/png" 
+      href="images/favicon2.ico" />
+  </head>
+
+  <body>
+    <div id= "wrapper">
+      <header>
+        <img src="images/kitelogo.jpg" alt= "logo of the company"/>
+      </header>
+      <!--navigation bar-->
+  	<div class="scrollmenu">
+      <a href="index.html">Home</a>
+      <a href="photos.html">Photos</a>
+      <a href="contact.html">Contact</a>
+      <a href="buynow.html">Buy Now</a>
+  
+    </div> <br/>
+
+
+<form id="myForm" action="form_action.asp">
+  <div>
+    <!--form and fields-->
+    <h1>Contact Form</h1>
+      <label><span>Your name:</span></label>
+      <input id="name" type="text" name="name"/>
+      <label><span>Email Address:</span></label>
+      <input id="email" type="text" name="email"/>
+      <label><span>Subject:</span></label>
+      <input id="subject" type="text" name="subject"/>
+      <label><span>Message:</span></label>
+      <textarea id="feedback" name="feedback"> </textarea><br/>
+     
+  </div>
+<div>
+  <!--on click javascript function-->
+  <input type="button" onclick="myFunction()" value="Submit form" id= "submitButton">
+  <p id="demo"></p>
+</div>
+</form>
+
+<footer>
+  <div class= "section">
+
+    <p>Kites by Gilberto</p>
+    <p>Contact us at +353 XXXXXXXXX<br>
+    Church AV Eden Gate Delgany<br/>
+    toqtodoido@hotmail.com</p>
+
+  </div>
+
+  <div class= "section">
+    <p> Connect with us</p>
+    <ul>
+    <li><a href="#"><img src="images/socialmedia.jpg" alt= "image for social media"/></a></li>
+    </ul>
+  </div>
+    <div class ="section">
+      <p>Fly with us</p>
+    <img src="images/kitelogo.jpg" alt= "logo of the company"/>
+  </div>
+</div>
+
+  </footer>
+
+  <p style= "text-align:center; padding: 0px;">&#169; Copyright - Kites by Gilberto 2016</p>
+
+<script>
+function myFunction() {
+    document.getElementById("myForm").submit();
+}
+</script>
+
+  </body>
+</html>
+

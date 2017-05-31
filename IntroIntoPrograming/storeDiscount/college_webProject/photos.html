@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Kites Photos</title>
+     <!--[if lt IE 9]>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/photo/photo.css">
+        <link rel="icon" 
+      type="image/png" 
+      href="images/favicon2.ico" />
+
+</head>
+<body>
+  <!--wrapp the entire page-->
+  <div id= "wrapper">
+      <header>
+        <img src="images/kitelogo.jpg" alt= "logo of the company"/>
+      </header>
+      <!--navigation bar-->
+  <div class="scrollmenu">
+  <a href="index.html">Home</a>
+  <a href="photos.html">Photos</a>
+  <a href="contact.html">Contact</a>
+  <a href="buynow.html">Buy Now</a>
+</div>
+
+<h1>Kites Image Gallery</h1>
+<!--caroussel images display-->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 7</div>
+  <img src="images/muitospipas.jpg" alt= "many kites" style="width:100%" >
+  <div class="text">Many kites ready for selling</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 7</div>
+  <img src="images/pipaboy.jpg" alt= "boy playing with a kite" style="width:100%">
+  <div class="text">Kid playing with a kite</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 7</div>
+  <img src="images/pipapaper.jpg" alt= "papers used for making kites" style="width:100%">
+  <div class="text">Papers used for making kites</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 7</div>
+  <img src="images/pipasquadriculado.jpg" alt= "squared kite style" style="width:100%">
+  <div class="text">Customised kites</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 7</div>
+  <img src="images/colecao.jpg" alt= "collection of kites" style="width:100%">
+  <div class="text">Ready for selling kites</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 7</div>
+  <img src="images/pipas.jpg" alt= "kites" style="width:100%">
+  <div class="text">Many kites flying on the sky</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 7</div>
+  <img src="images/pretoamareloceu.jpg" alt= "black and yellow kite flying" style="width:100%">
+  <div class="text">Black and yellow kite flying with a big tail</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br/>
+<!--dots on the bottom of the caroussel-->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+</div>
+<!--javascript for the caroussel looping through the images-->
+<script>
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += "active";
+}
+</script>
+<footer>
+        <div class= "section">
+
+        <p>Kites by Gilberto</p>
+        <p>Contact us at +353 XXXXXXXXX<br/>
+        Church AV Eden Gate Delgany<br/>
+        toqtodoido@hotmail.com</p>
+
+        </div>
+
+    <div class= "section">
+      <p> Connect with us</p>
+      <ul>
+      <li><a href="#"><img src="images/socialmedia.jpg" alt= "image for social media"/></a></li>
+      </ul>
+    </div>
+    <div class ="section">
+       <p>Fly with us</p>
+    <img src="images/kitelogo.jpg" alt= "image for social media"/>
+  </div>
+  </div>
+</footer>
+
+
+  <p style= "text-align:center; padding: 0px;">&#169; Copyright - Kites by Gilberto 2016</p>
+
+</body>
+</html>
+

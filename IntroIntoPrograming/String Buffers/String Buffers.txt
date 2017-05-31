@@ -1,0 +1,24 @@
+/* StringBuffers.java
+* @author gilberto caobianco
+* 8 april 2017
+*/
+
+//Exam can be String buffers, Arrays  Chars & Strings.
+
+//1- Declaring String Buffers
+
+//2- StringBuffer StrBuff; // It allows you to alter the text.
+
+//3- StrBuff = new StringBuffers();
+
+// 4- Add a character
+
+// .append('a')
+
+// StrBuff.append("lab");
+
+//toString();   Converting a String Buffer back to a String
+
+
+// insert(); Removes the characters in a substring of this string buffer
+
